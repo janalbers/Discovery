@@ -77,10 +77,9 @@
     <File name="drivers/CMSIS/include/core_cmSimd.h" path="../drivers/CMSIS/include/core_cmSimd.h" type="1"/>
     <File name="drivers/CMSIS/device/include" path="" type="2"/>
     <File name="cmsis_boot" path="" type="2"/>
-    <File name="applic/stm32f4xx_hal_msp - Copy.c" path="../applic/stm32f4xx_hal_msp - Copy.c" type="1"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_pwr_ex.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_pwr_ex.c" type="1"/>
-    <File name="drivers/HAL_drivers/include/stm32f4xx_hal_dac.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_dac.h" type="1"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_dma.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_dma.c" type="1"/>
+    <File name="drivers/HAL_drivers/include/stm32f4xx_hal_dac.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_dac.h" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="drivers/CMSIS/device/system_stm32f4xx.c" path="../drivers/CMSIS/device/system_stm32f4xx.c" type="1"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_flash.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_flash.c" type="1"/>
@@ -88,18 +87,18 @@
     <File name="applic/stm32f4xx_hal_msp.c" path="../applic/stm32f4xx_hal_msp.c" type="1"/>
     <File name="applic/semihosting/semihosting.h" path="../applic/semihosting/semihosting.h" type="1"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_flash_ramfunc.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_flash_ramfunc.c" type="1"/>
-    <File name="applic/LED.h" path="../applic/LED.h" type="1"/>
-    <File name="drivers/HAL_drivers" path="" type="2"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_rcc_ex.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_rcc_ex.c" type="1"/>
+    <File name="drivers/HAL_drivers" path="" type="2"/>
+    <File name="applic/LED.h" path="../applic/LED.h" type="1"/>
     <File name="drivers/HAL_drivers/include/stm32f4xx_hal_pwr_ex.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_pwr_ex.h" type="1"/>
     <File name="drivers/HAL_drivers/include/Legacy/stm32_hal_legacy.h" path="../drivers/HAL_drivers/include/Legacy/stm32_hal_legacy.h" type="1"/>
     <File name="drivers/CMSIS/device/include/stm32f4xx.h" path="../drivers/CMSIS/device/include/stm32f4xx.h" type="1"/>
     <File name="drivers/HAL_drivers/include/stm32f4xx_hal_def.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_def.h" type="1"/>
-    <File name="applic/semihosting" path="" type="2"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_dma_ex.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_dma_ex.c" type="1"/>
+    <File name="applic/semihosting" path="" type="2"/>
     <File name="drivers/CMSIS/include/core_cmInstr.h" path="../drivers/CMSIS/include/core_cmInstr.h" type="1"/>
-    <File name="drivers/CMSIS/include/arm_common_tables.h" path="../drivers/CMSIS/include/arm_common_tables.h" type="1"/>
     <File name="applic/main.c" path="../applic/main.c" type="1"/>
+    <File name="drivers/CMSIS/include/arm_common_tables.h" path="../drivers/CMSIS/include/arm_common_tables.h" type="1"/>
     <File name="applic/CAN.h" path="../applic/CAN.h" type="1"/>
     <File name="drivers/HAL_drivers/include/stm32f4xx_hal_gpio_ex.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_gpio_ex.h" type="1"/>
     <File name="applic/stm32f4xx_hal_conf.h" path="../applic/stm32f4xx_hal_conf.h" type="1"/>
@@ -110,15 +109,15 @@
     <File name="applic/DAC.h" path="../applic/DAC.h" type="1"/>
     <File name="drivers/HAL_drivers/include/stm32f4xx_hal_dma_ex.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_dma_ex.h" type="1"/>
     <File name="drivers/CMSIS/include" path="" type="2"/>
-    <File name="drivers/CMSIS" path="" type="2"/>
     <File name="drivers/HAL_drivers/include/stm32f4xx_hal.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal.h" type="1"/>
-    <File name="drivers/CMSIS/include/core_cm4.h" path="../drivers/CMSIS/include/core_cm4.h" type="1"/>
+    <File name="drivers/CMSIS" path="" type="2"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_cortex.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_cortex.c" type="1"/>
+    <File name="drivers/CMSIS/include/core_cm4.h" path="../drivers/CMSIS/include/core_cm4.h" type="1"/>
     <File name="drivers/HAL_drivers/include/stm32f4xx_hal_dac_ex.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_dac_ex.h" type="1"/>
     <File name="applic/semihosting/semihosting.c" path="../applic/semihosting/semihosting.c" type="1"/>
     <File name="drivers/HAL_drivers/include/stm32f4xx_hal_cortex.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_cortex.h" type="1"/>
-    <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="../cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_pwr.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_pwr.c" type="1"/>
+    <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="../cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
     <File name="applic/stm32f4xx_it.c" path="../applic/stm32f4xx_it.c" type="1"/>
     <File name="applic/semihosting/sh_cmd.s" path="../applic/semihosting/sh_cmd.s" type="1"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal.c" type="1"/>
@@ -136,18 +135,18 @@
     <File name="drivers/HAL_drivers/include/stm32f4xx_hal_dma.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_dma.h" type="1"/>
     <File name="drivers/HAL_drivers/include/stm32f4xx_hal_gpio.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_gpio.h" type="1"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_flash_ex.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_flash_ex.c" type="1"/>
-    <File name="applic/stm32f4xx_it.h" path="../applic/stm32f4xx_it.h" type="1"/>
     <File name="applic" path="" type="2"/>
+    <File name="applic/stm32f4xx_it.h" path="../applic/stm32f4xx_it.h" type="1"/>
     <File name="drivers/HAL_drivers/include/Legacy" path="" type="2"/>
     <File name="applic/CAN.c" path="../applic/CAN.c" type="1"/>
     <File name="drivers/HAL_drivers/include/stm32f4xx_hal_flash.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_flash.h" type="1"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_rcc.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_rcc.c" type="1"/>
     <File name="applic/DAC.c" path="../applic/DAC.c" type="1"/>
+    <File name="drivers/HAL_drivers/include/stm32f4xx_hal_flash_ramfunc.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_flash_ramfunc.h" type="1"/>
     <File name="drivers/HAL_drivers/source/stm32f4xx_hal_can.c" path="../drivers/HAL_drivers/source/stm32f4xx_hal_can.c" type="1"/>
     <File name="drivers/CMSIS/device/include/system_stm32f4xx.h" path="../drivers/CMSIS/device/include/system_stm32f4xx.h" type="1"/>
-    <File name="drivers/HAL_drivers/include/stm32f4xx_hal_flash_ramfunc.h" path="../drivers/HAL_drivers/include/stm32f4xx_hal_flash_ramfunc.h" type="1"/>
-    <File name="drivers/CMSIS/include/arm_math.h" path="../drivers/CMSIS/include/arm_math.h" type="1"/>
     <File name="drivers/CMSIS/include/core_cmFunc.h" path="../drivers/CMSIS/include/core_cmFunc.h" type="1"/>
+    <File name="drivers/CMSIS/include/arm_math.h" path="../drivers/CMSIS/include/arm_math.h" type="1"/>
     <File name="drivers/HAL_drivers/include" path="" type="2"/>
     <File name="drivers/HAL_drivers/source" path="" type="2"/>
   </Files>

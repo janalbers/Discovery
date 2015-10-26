@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m4 -mthumb -g2 -nostartfiles -Map=Discovery1.map -O0 --gc-sections -LC:\Users\jan\AppData\Roaming\CooCox\CoIDE\configuration\ProgramData\Discovery1 -TC:\Users\jan\AppData\Roaming\CooCox\CoIDE\configuration\ProgramData\Discovery1/arm-gcc-link.ld -g">
+      <target file="Discovery1.elf" lastModified="150a606968f">
+         <source file="..\obj\stm32f4xx_hal_dac.o" lastModified="150a600b121"/>
+         <source file="..\obj\stm32f4xx_hal_pwr_ex.o" lastModified="150a600b6bc"/>
+         <source file="..\obj\stm32f4xx_hal_dma.o" lastModified="150a600b8a0"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="150a600b4e8"/>
+         <source file="..\obj\stm32f4xx_hal_flash.o" lastModified="150a600aeff"/>
+         <source file="..\obj\stm32f4xx_hal_msp.o" lastModified="150a600ac70"/>
+         <source file="..\obj\stm32f4xx_hal_flash_ramfunc.o" lastModified="150a600abf3"/>
+         <source file="..\obj\stm32f4xx_hal_rcc_ex.o" lastModified="150a600b288"/>
+         <source file="..\obj\stm32f4xx_hal_dma_ex.o" lastModified="150a600b1ec"/>
+         <source file="..\obj\main.o" lastModified="150a60306f2"/>
+         <source file="..\obj\LED.o" lastModified="150a600b8fd"/>
+         <source file="..\obj\stm32f4xx_hal_dac_ex.o" lastModified="150a600b63f"/>
+         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="150a600b46b"/>
+         <source file="..\obj\semihosting.o" lastModified="150a600ab86"/>
+         <source file="..\obj\stm32f4xx_hal_pwr.o" lastModified="150a600af7c"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="150a600ad98"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="150a600ae72"/>
+         <source file="..\obj\sh_cmd.o" lastModified="150a600b47b"/>
+         <source file="..\obj\stm32f4xx_hal.o" lastModified="150a60575d2"/>
+         <source file="..\obj\Generic.o" lastModified="150a606947d"/>
+         <source file="..\obj\syscalls.o" lastModified="150a600b546"/>
+         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="150a600b5d2"/>
+         <source file="..\obj\stm32f4xx_hal_flash_ex.o" lastModified="150a600b3cf"/>
+         <source file="..\obj\CAN.o" lastModified="150a600acfc"/>
+         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="150a600b343"/>
+         <source file="..\obj\DAC.o" lastModified="150a600ad69"/>
+         <source file="..\obj\stm32f4xx_hal_can.o" lastModified="150a600b027"/>
+      </target>
+   </processor>
+</history>

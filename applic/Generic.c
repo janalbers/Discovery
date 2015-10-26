@@ -3,6 +3,11 @@
 #include "stm32f407xx.h"
 static uint32_t mainlooptime;
 
+
+static __IO uint32_t uwTick;
+static __IO uint32_t ms50Tick;
+static __IO uint32_t ms500Tick;
+
 uint32_t Gen_Getms5Tick(void)
 {
 	return HAL_GetTick()/5;
@@ -65,4 +70,15 @@ void Gen_SwExtI23_Handler(void)
 
 void SwExtI22_Handler(void)
 {
+}
+
+void HAL_IncTick(void)
+{
+  uwTick++;
+  if (uwTick % 50 == 0)
+  {
+	  ms50Tick = 1;
+	  if (uwTick % 500 == 0) ms500Tick = 1;
+
+  }
 }

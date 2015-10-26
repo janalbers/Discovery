@@ -172,15 +172,10 @@ int main(void)
             if ( val_Rx == 0x05)
             {
                 printf("Random Send %d and Received %d \n", val_Tx, val_Rx);              /* display TX and RX values */
-                Gen_Delay(195);
             }
         }
 
-
         val_display ();                               /* display TX and RX values */
-#ifndef __NO_SYSTIC
-        if (Gen_GetMainTimer() != 0) {printf("Mainloop too slow \n");}
-#endif
     }
   /* USER CODE END 3 */
 
