@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\Projects\STM32\F4\Discovery1\drivers\HAL_drivers /ID:\Projects\STM32\F4\Discovery1\drivers\CMSIS\device /ID:\Projects\STM32\F4\Discovery1\applic\semihosting /ID:\Projects\STM32\F4\Discovery1\Coocox /ID:\Projects\STM32\F4\Discovery1\applic /ID:\Projects\STM32\F4\Discovery1 /ID:\Projects\STM32\F4\Discovery1\drivers\CMSIS\include /ID:\Projects\STM32\F4\Discovery1\drivers\HAL_drivers\include /ID:\Projects\STM32\F4\Discovery1\drivers\CMSIS /ID:\Projects\STM32\F4 /ID:\Projects\STM32\F4\Discovery1\drivers\CMSIS\device\include /ID:\Projects\STM32\F4\Discovery1\drivers /ID:\Projects\STM32\F4\Discovery1\drivers\HAL_drivers\include\Legacy">
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_dma_ex.c" lastModified="14f46698a5f">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_dac_ex.c" lastModified="14f46698a5f">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\CMSIS\include\core_cmInstr.h" lastModified="14f46696d52">
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_rcc_ex.c" lastModified="14f46698aad">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\applic\stm32f4xx_hal_conf.h" lastModified="1501a98f3f8">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_rcc.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_gpio.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_dma.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_cortex.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_can.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_dac.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_flash.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_pwr.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_flash.h" lastModified="14f466988c9">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_flash_ex.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_flash_ramfunc.h"/>
+      </source>
+      <source file="..\..\..\..\applic\semihosting\sh_cmd.s" lastModified="14fb31b8466">
+      </source>
+      <source file="..\..\..\..\drivers\CMSIS\include\core_cmFunc.h" lastModified="14f46696d43">
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_flash_ramfunc.c" lastModified="14f46698a6e">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\applic\CAN.h" lastModified="15013dc309d">
+      </source>
+      <source file="..\..\..\..\drivers\CMSIS\device\include\system_stm32f4xx.h" lastModified="14f46694fcf">
+      </source>
+      <source file="..\..\..\..\applic\CAN.c" lastModified="15013dcc4bd">
+         <include file="..\..\..\..\drivers\CMSIS\device\include\stm32f4xx.h"/>
+         <include file="..\..\..\..\applic\CAN.h"/>
+      </source>
+      <source file="..\..\..\..\applic\DAC.c" lastModified="15046db4dc8">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\applic\syscalls.c" lastModified="14f8ef6623d">
+         <include file="..\..\..\..\applic\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_rcc.c" lastModified="14f46698aad">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\applic\stm32f4xx_hal_msp.c" lastModified="1501f2cd7e0">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_dac.c" lastModified="1501f3e4fed">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_rcc.h" lastModified="14f466989a3">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_rcc_ex.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_flash_ex.h" lastModified="14f466988d9">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_can.c" lastModified="14ff5720834">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_pwr.c" lastModified="14f46698aad">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_dac.h" lastModified="14f466988b9">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_dac_ex.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_can.h" lastModified="14f466988b9">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_pwr.h" lastModified="14f466989a3">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_pwr_ex.h"/>
+      </source>
+      <source file="..\..\..\..\applic\semihosting\semihosting.h" lastModified="15046e485cd">
+      </source>
+      <source file="..\..\..\..\applic\Generic.c" lastModified="150677a1384">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+         <include file="..\..\..\..\drivers\CMSIS\device\include\stm32f407xx.h"/>
+      </source>
+      <source file="..\..\..\..\applic\semihosting\semihosting.c" lastModified="15046e48d93">
+         <include file="..\..\..\..\applic\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_pwr_ex.h" lastModified="14f466989a3">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\applic\stm32f4xx_it.h" lastModified="14f5f3235de">
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_dma.c" lastModified="14f46698a5f">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_flash.c" lastModified="14f46698a5f">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_dma.h" lastModified="14f466988c9">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_dma_ex.h"/>
+      </source>
+      <source file="..\..\..\..\applic\stm32f4xx_it.c" lastModified="14f5f3235b4">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+         <include file="..\..\..\..\drivers\CMSIS\device\include\stm32f4xx.h"/>
+         <include file="..\..\..\..\applic\stm32f4xx_it.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\CMSIS\device\system_stm32f4xx.c" lastModified="14f4669506b">
+         <include file="..\..\..\..\drivers\CMSIS\device\include\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\applic\LED.h" lastModified="14fd1268257">
+      </source>
+      <source file="..\..\..\..\drivers\CMSIS\device\include\stm32f4xx.h" lastModified="14f46697ac7">
+         <include file="..\..\..\..\drivers\CMSIS\device\include\stm32f407xx.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\applic\LED.c" lastModified="14fd1c954ce">
+         <include file="..\..\..\..\drivers\CMSIS\device\include\stm32f407xx.h"/>
+         <include file="..\..\..\..\applic\LED.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_flash_ramfunc.h" lastModified="14f466988d9">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h" lastModified="14f46698cb1">
+         <include file="..\..\..\..\drivers\CMSIS\device\include\stm32f4xx.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\Legacy\stm32_hal_legacy.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\CMSIS\include\core_cmSimd.h" lastModified="14f46696d52">
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_gpio.h" lastModified="14f466988d9">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_gpio_ex.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_pwr_ex.c" lastModified="14f46698aad">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_cortex.h" lastModified="14f466988b9">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h" lastModified="14f466988aa">
+         <include file="..\..\..\..\applic\stm32f4xx_hal_conf.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_dma_ex.h" lastModified="14f466988c9">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_dac_ex.h" lastModified="14f466988b9">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_gpio_ex.h" lastModified="14f46698917">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_flash_ex.c" lastModified="14f46698a5f">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal.c" lastModified="15066d83ec6">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_rcc_ex.h" lastModified="14f466989a3">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\include\Legacy\stm32_hal_legacy.h" lastModified="14f466988aa">
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_gpio.c" lastModified="14fd17333bc">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\CMSIS\include\core_cm4.h" lastModified="14f46696573">
+         <include file="..\..\..\..\drivers\CMSIS\include\core_cmInstr.h"/>
+         <include file="..\..\..\..\drivers\CMSIS\include\core_cmFunc.h"/>
+         <include file="..\..\..\..\drivers\CMSIS\include\core_cmSimd.h"/>
+      </source>
+      <source file="..\..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15067705f73">
+      </source>
+      <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_cortex.c" lastModified="14f46698a4f">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\applic\stm32f4xx_hal_msp - Copy.c" lastModified="1501ebcaabc">
+         <include file="..\..\..\..\drivers\HAL_drivers\include\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\..\drivers\CMSIS\device\include\stm32f407xx.h" lastModified="14feffff8f8">
+         <include file="..\..\..\..\drivers\CMSIS\include\core_cm4.h"/>
+         <include file="..\..\..\..\drivers\CMSIS\device\include\system_stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

@@ -175,7 +175,10 @@ int main(void)
                 Gen_Delay(195);
             }
         }
-
+        if (Gen_Getms5Tick() == 0)
+        {
+        	printf("Idiot function useage \n");
+        }
 
         val_display ();                               /* display TX and RX values */
 #ifndef __NO_SYSTIC

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F407VG -DSTM32F4XX -DSTM32F407xx -DUSE_HAL_DRIVER -ID:\Projects\STM32\F4\Discovery1\drivers\HAL_drivers -ID:\Projects\STM32\F4\Discovery1\drivers\CMSIS\device -ID:\Projects\STM32\F4\Discovery1\applic\semihosting -ID:\Projects\STM32\F4\Discovery1\Coocox -ID:\Projects\STM32\F4\Discovery1\applic -ID:\Projects\STM32\F4\Discovery1 -ID:\Projects\STM32\F4\Discovery1\drivers\CMSIS\include -ID:\Projects\STM32\F4\Discovery1\drivers\HAL_drivers\include -ID:\Projects\STM32\F4\Discovery1\drivers\CMSIS -ID:\Projects\STM32\F4 -ID:\Projects\STM32\F4\Discovery1\drivers\CMSIS\device\include -ID:\Projects\STM32\F4\Discovery1\drivers -ID:\Projects\STM32\F4\Discovery1\drivers\HAL_drivers\include\Legacy">
+      <target file="LED.o" lastModified="150a5f09ade">
+         <source file="..\..\..\..\applic\LED.c" lastModified="14fd1c954ce"/>
+      </target>
+      <target file="stm32f4xx_hal.o" lastModified="150a5f093fb">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal.c" lastModified="15066d83ec6"/>
+      </target>
+      <target file="stm32f4xx_hal_rcc.o" lastModified="150a5f09581">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_rcc.c" lastModified="14f46698aad"/>
+      </target>
+      <target file="stm32f4xx_hal_pwr.o" lastModified="150a5f09195">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_pwr.c" lastModified="14f46698aad"/>
+      </target>
+      <target file="stm32f4xx_hal_dac.o" lastModified="150a5f0938e">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_dac.c" lastModified="1501f3e4fed"/>
+      </target>
+      <target file="stm32f4xx_hal_rcc_ex.o" lastModified="150a5f094d6">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_rcc_ex.c" lastModified="14f46698aad"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="150a5f08f81">
+         <source file="..\..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15067705f73"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="150a5f096e8">
+         <source file="..\..\..\..\drivers\CMSIS\device\system_stm32f4xx.c" lastModified="14f4669506b"/>
+      </target>
+      <target file="stm32f4xx_hal_pwr_ex.o" lastModified="150a5f0989d">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_pwr_ex.c" lastModified="14f46698aad"/>
+      </target>
+      <target file="stm32f4xx_hal_flash_ramfunc.o" lastModified="150a5f08deb">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_flash_ramfunc.c" lastModified="14f46698a6e"/>
+      </target>
+      <target file="stm32f4xx_hal_dac_ex.o" lastModified="150a5f09830">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_dac_ex.c" lastModified="14f46698a5f"/>
+      </target>
+      <target file="stm32f4xx_hal_dma_ex.o" lastModified="150a5f09468">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_dma_ex.c" lastModified="14f46698a5f"/>
+      </target>
+      <target file="CAN.o" lastModified="150a5f08ee5">
+         <source file="..\..\..\..\applic\CAN.c" lastModified="15013dcc4bd"/>
+      </target>
+      <target file="stm32f4xx_hal_flash.o" lastModified="150a5f09118">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_flash.c" lastModified="14f46698a5f"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="150a5f0908a">
+         <source file="..\..\..\..\applic\stm32f4xx_it.c" lastModified="14f5f3235b4"/>
+      </target>
+      <target file="stm32f4xx_hal_msp.o" lastModified="150a5f08e58">
+         <source file="..\..\..\..\applic\stm32f4xx_hal_msp.c" lastModified="1501f2cd7e0"/>
+      </target>
+      <target file="stm32f4xx_hal_can.o" lastModified="150a5f0929e">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_can.c" lastModified="14ff5720834"/>
+      </target>
+      <target file="stm32f4xx_hal_flash_ex.o" lastModified="150a5f095fe">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_flash_ex.c" lastModified="14f46698a5f"/>
+      </target>
+      <target file="stm32f4xx_hal_msp - Copy.o" lastModified="150a5f09b4b">
+         <source file="..\..\..\..\applic\stm32f4xx_hal_msp - Copy.c" lastModified="1501ebcaabc"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="150a5f0968a">
+         <source file="..\..\..\..\applic\semihosting\sh_cmd.s" lastModified="14fb31b8466"/>
+      </target>
+      <target file="syscalls.o" lastModified="150a5f09736">
+         <source file="..\..\..\..\applic\syscalls.c" lastModified="14f8ef6529d"/>
+      </target>
+      <target file="stm32f4xx_hal_cortex.o" lastModified="150a5f0967b">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_cortex.c" lastModified="14f46698a4f"/>
+      </target>
+      <target file="Generic.o" lastModified="150a5f09311">
+         <source file="..\..\..\..\applic\Generic.c" lastModified="150677a0f9c"/>
+      </target>
+      <target file="semihosting.o" lastModified="150a5f08cd2">
+         <source file="..\..\..\..\applic\semihosting\semihosting.c" lastModified="15046e485c3"/>
+      </target>
+      <target file="stm32f4xx_hal_dma.o" lastModified="150a5f09a80">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_dma.c" lastModified="14f46698a5f"/>
+      </target>
+      <target file="stm32f4xx_hal_gpio.o" lastModified="150a5f097b3">
+         <source file="..\..\..\..\drivers\HAL_drivers\source\stm32f4xx_hal_gpio.c" lastModified="14fd17333bc"/>
+      </target>
+      <target file="main.o" lastModified="150a5f7df8e">
+         <source file="..\..\..\..\applic\main.c" lastModified="150a5f7daec"/>
+      </target>
+      <target file="DAC.o" lastModified="150a5f08f52">
+         <source file="..\..\..\..\applic\DAC.c" lastModified="15046db4dc8"/>
+      </target>
+   </processor>
+</history>
