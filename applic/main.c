@@ -176,6 +176,10 @@ int main(void)
             }
         }
 
+        if(Gen_Getms500Tick == 100)
+        {
+        	printf("Yet Another Clumsy Call \n");
+        }
 
         val_display ();                               /* display TX and RX values */
 #ifndef __NO_SYSTIC
