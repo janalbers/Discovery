@@ -8,3 +8,6 @@
 *.log
 Debug/*
 Understand/*
+*.cogui
+*.comarker
+*.coproj
