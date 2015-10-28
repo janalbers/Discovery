@@ -40,7 +40,6 @@
 #include "DAC.h"
 #include "Generic.h"
 
-
 /* USER CODE BEGIN Includes */
 
 unsigned int val_Tx = 0, val_Rx = 0;              /* Globals used for display */
