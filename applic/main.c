@@ -174,7 +174,10 @@ int main(void)
                 printf("Random Send %d and Received %d \n", val_Tx, val_Rx);              /* display TX and RX values */
             }
         }
-
+        if (Gen_Getms5Tick() == 0)
+        {
+        	printf("Idiot function useage \n");
+        }
         if(Gen_Getms500Tick == 100)
         {
         	printf("Yet Another Clumsy Call \n");
