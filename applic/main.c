@@ -178,7 +178,7 @@ int main(void)
         {
         	printf("Idiot function useage \n");
         }
-        if(Gen_Getms500Tick == 100)
+        if(Gen_Getms500Tick() == 100)
         {
         	printf("Yet Another Clumsy Call \n");
         }

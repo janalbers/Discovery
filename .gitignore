@@ -11,3 +11,7 @@ Understand/*
 *.cogui
 *.comarker
 *.coproj
+Coocox/Discovery1/Debug/bin/history.xml
+Coocox/Discovery1/Debug/obj/dependencies.xml
+Coocox/Discovery1/Debug/obj/history.xml
+
