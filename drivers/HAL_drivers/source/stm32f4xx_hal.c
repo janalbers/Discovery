@@ -103,7 +103,7 @@
 /** @addtogroup HAL_Private_Variables
   * @{
   */
-static __IO uint32_t uwTick;
+static volatile uint32_t uwTick;
 /**
   * @}
   */
@@ -166,30 +166,30 @@ static __IO uint32_t uwTick;
   */
 HAL_StatusTypeDef HAL_Init(void)
 {
-  /* Configure Flash prefetch, Instruction cache, Data cache */ 
+	/* Configure Flash prefetch, Instruction cache, Data cache */
 #if (INSTRUCTION_CACHE_ENABLE != 0)
-   __HAL_FLASH_INSTRUCTION_CACHE_ENABLE();
+	__HAL_FLASH_INSTRUCTION_CACHE_ENABLE();
 #endif /* INSTRUCTION_CACHE_ENABLE */
 
 #if (DATA_CACHE_ENABLE != 0)
-   __HAL_FLASH_DATA_CACHE_ENABLE();
+	__HAL_FLASH_DATA_CACHE_ENABLE();
 #endif /* DATA_CACHE_ENABLE */
 
 #if (PREFETCH_ENABLE != 0)
-  __HAL_FLASH_PREFETCH_BUFFER_ENABLE();
+	__HAL_FLASH_PREFETCH_BUFFER_ENABLE();
 #endif /* PREFETCH_ENABLE */
 
-  /* Set Interrupt Group Priority */
-  HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
+	/* Set NestedVectorInterruptController Interrupt Group Priority */
+	HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
 
-  /* Use systick as time base source and configure 1ms tick (default clock after Reset is HSI) */
-  HAL_InitTick(TICK_INT_PRIORITY);
-  
-  /* Init the low level hardware */
-  HAL_MspInit();
-  
-  /* Return function status */
-  return HAL_OK;
+	/* Use systick as time base source and configure 1ms tick (default clock after Reset is HSI) */
+	HAL_InitTick(TICK_INT_PRIORITY);
+
+	/* Init the low level hardware */
+	HAL_MspInit();
+
+	/* Return function status */
+	return HAL_OK;
 }
 
 /**

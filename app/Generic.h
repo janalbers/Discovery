@@ -4,3 +4,5 @@ uint32_t Gen_Getms500Tick(void);
 void Gen_SetMainTimer(uint32_t timerticks);
 uint32_t Gen_GetMainTimer();
 void Gen_Delay (uint32_t dlyTicks);
+void HAL_IncTick(void);
+uint32_t HAL_GetTick(void);

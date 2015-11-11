@@ -1,27 +1,13 @@
 #include <stdlib.h>
 #include "stm32f4xx_hal.h"
 #include "stm32f407xx.h"
+#include "Generic.h"
 static uint32_t mainlooptime;
 
 
 static __IO uint32_t uwTick;
-static __IO uint32_t ms50Tick;
-static __IO uint32_t ms500Tick;
-
-uint32_t Gen_Getms5Tick(void)
-{
-	return HAL_GetTick()/5;
-}
-
-uint32_t Gen_Getms50Tick(void)
-{
-	return HAL_GetTick()/50;
-}
-
-uint32_t Gen_Getms500Tick(void)
-{
-	return HAL_GetTick()/500;
-}
+__IO uint32_t ms50Tick;
+__IO uint32_t ms500Tick;
 
 
 /*----------------------------------------------------------------------------
@@ -78,7 +64,16 @@ void HAL_IncTick(void)
   if (uwTick % 50 == 0)
   {
 	  ms50Tick = 1;
-	  if (uwTick % 500 == 0) ms500Tick = 1;
+	  if (uwTick % 500 == 0)
+      {
+		  ms500Tick = 1;
+		  printf("%d\n", (int)uwTick);
+      }
 
   }
+}
+
+uint32_t HAL_GetTick(void)
+{
+  return uwTick;
 }

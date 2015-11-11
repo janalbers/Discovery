@@ -30,7 +30,10 @@
   *
   ******************************************************************************
   */
+
+#define DEBUG_ID        DEBUG_MODULE_MAIN
 /* Includes ------------------------------------------------------------------*/
+#include "debuginfo.h"
 #include <stdlib.h>
 #include "stm32f4xx_hal.h"
 #include "semihosting.h"
@@ -41,10 +44,12 @@
 #include "Generic.h"
 
 /* USER CODE BEGIN Includes */
+extern uint32_t ms50Tick;
+extern uint32_t ms500Tick;
 
 unsigned int val_Tx = 0, val_Rx = 0;              /* Globals used for display */
 unsigned int dacvalue = 0;
-uint32_t 	ms5, ms50, ms500;
+
 
 volatile uint32_t msTicks;  /* counts 1ms timeTicks     */
 CAN_HandleTypeDef hcan;
@@ -102,12 +107,17 @@ int main(void)
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
+	/* Configure the system clock */
+	SystemClock_Config();
+	SystemCoreClockUpdate();                        /* Get Core Clock Frequency */
+#ifndef __NO_SYSTICK
+	SysTick_Config(SystemCoreClock /1000);         /* SysTick 1 msec irq       */
+#endif
 
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+	/* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+ 	HAL_Init();
 
-  /* Configure the system clock */
-  SystemClock_Config();
+
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
@@ -115,10 +125,6 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   LED_Init ();                                    /* initialize the LEDs      */
-  SystemCoreClockUpdate();                        /* Get Core Clock Frequency */
-#ifndef __NO_SYSTICK
-  SysTick_Config(SystemCoreClock /1000);         /* SysTick 1 msec irq       */
-#endif
 
                               /* initialize CAN interface */
   //MX_CAN1_Init();
@@ -143,9 +149,6 @@ int main(void)
   HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, dacvalue);
   printf("DAC Function write %03x, read %03x\n", (unsigned int)2048, (unsigned int)HAL_DAC_GetValue(&hdac, DAC_CHANNEL_1));
 
-  ms5 = Gen_Getms5Tick();
-  ms50 = Gen_Getms500Tick();
-  ms500 = Gen_Getms500Tick();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -155,12 +158,19 @@ int main(void)
 #ifndef __NO_SYSTIC
     	Gen_SetMainTimer(200);        //Start the mainloop timer
 #endif
-        dacvalue +=100;
-        HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, dacvalue);
-        val_Tx = rand() % 10;
-        CAN_send_dummy_message( val_Tx );
-
-        Gen_Delay(5);
+        if (ms50Tick == 1)
+         {// Actions not faster than 50msec could be here
+        	ms50Tick = 0;
+        	dacvalue +=100;
+            HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, dacvalue);
+         }
+         if (ms500Tick == 1)
+         {// Actions not faster than 500msec could be here
+             ms500Tick = 0;
+             val_Tx = rand() % 10;
+             CAN_send_dummy_message( val_Tx );
+             Gen_Delay(5);
+         }
 
         if (CAN_RxRdy[0])
         {                           /* rx msg on CAN Ctrl #1    */
@@ -170,16 +180,8 @@ int main(void)
             val_Rx = CAN_RxMsg[0].data[0];
             if ( val_Rx == 0x05)
             {
-                printf("Random Send %d and Received %d \n", val_Tx, val_Rx);              /* display TX and RX values */
+                printf("S: %d R: %d \n", val_Tx, val_Rx);              /* display TX and RX values */
             }
-        }
-        if (Gen_Getms5Tick() == 0)
-        {
-        	printf("Idiot function useage \n");
-        }
-        if(Gen_Getms500Tick() == 100)
-        {
-        	printf("Yet Another Clumsy Call \n");
         }
         val_display ();                               /* display TX and RX values */
     }
