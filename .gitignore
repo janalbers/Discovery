@@ -1,2 +1,10 @@
-Coocox/DiscHello/Debug/
-Understand/
+#Hex etc
+*.hex
+*.o
+*.bin
+*.elf
+*.map
+*.lst
+*.log
+Debug/*
+Understand/*
